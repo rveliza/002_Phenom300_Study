@@ -19,7 +19,7 @@ oxygen_page = st.Page("pages/oxygen.py", title="Oxygen System", icon="🫁")
 warning_page = st.Page("pages/warning.py", title="Warning System", icon="⚠️")
 regulations_page = st.Page("pages/regulations.py", title="Regulations", icon="🏛️")
 wb_page = st.Page("pages/weight_balance.py", title="Weight and Balance", icon="⚖️")
-testing_page = st.Page("pages/testing.py", title="Testing")
+
 
 if 'first_visit' not in st.session_state:
     st.session_state['first_visit'] = True
@@ -50,7 +50,7 @@ pg = st.navigation({
                                          landing_gear_brakes_page,
                                          oxygen_page,
                                          warning_page,
-                                         testing_page],
+                                         ],
                     "Tools": [wb_page,
                               regulations_page,
                               configuration_page],
