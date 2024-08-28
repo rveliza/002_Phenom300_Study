@@ -100,7 +100,7 @@ off_on = st.toggle(label="off_on", key="flaps_speeds", label_visibility="collaps
 
     
 flaps_table = f"""
-| Flap Position | Retraction Speed     | Min Man Speed | Degrees    | Max Speed   |
+| Flap Pos | Ret Speed     | Min Man. Speed | Degr | Max Speed |
 | -------- | :--------:                | :--------:    | :--------: | :------:    |
 | Flap 0   |                           |   150 KIAS    | 0$\degree$ |             |
 | Flap 1   | $\Rightarrow$ 0: V2 + 11  |   140 KIAS    | 8$\degree$ | :orange-background[180 KIAS]  |
