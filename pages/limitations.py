@@ -48,7 +48,7 @@ else:
     pos4 = mlw[0]
 
 table = """
-        | Maximum Ramp Weight (MRW) | Maximimum Takeoff Weight (MTOW) | Maximum Landing Weight (MLW) | Maximum Zero Fuel Weight (MZFW) |
+        | (MRW) | (MTOW) | (MLW) | (MZFW) |
         | :---: | :---: | :---: | :---: |
         | {mrw} | {mtow}  | {mlw}  | {mzfw}  |
                     """.format(mrw=pos1, mtow=pos2, mlw=pos3, mzfw=pos4)
