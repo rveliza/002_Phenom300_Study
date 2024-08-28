@@ -110,7 +110,7 @@ flaps_table = f"""
 """
 
 flaps_table_off = f"""
-| Flap Position | Retraction Speed                                   | Min Man Speed | Degrees    | Max Speed   |
+| Flap Pos | Ret Speed      | Min Man. Speed | Degr | Max Speed   |
 | --------      | :--------:                                         | :--------:    | :--------: | :------:    |
 | Flap 0        |                                                    |   .    | . |             |
 | Flap 1        | .                           |   .    | . | .    |
