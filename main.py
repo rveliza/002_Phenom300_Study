@@ -56,6 +56,9 @@ pg = st.navigation({
                               configuration_page],
                      })
 
+st.set_page_config(
+    initial_sidebar_state="expanded"
+)
 
 pg.run()
 
