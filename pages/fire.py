@@ -44,17 +44,17 @@ st.write("## Question Bank")
 with st.expander("Succesful baggage smoke test consists of?"):
      st.write(f"""
 - {hightlight}[**BAG SMK CAS messages**] 
-- {hightlight}[**Aurol "Fire, Fire"**] 
+- {hightlight}[**Aural "Fire, Fire"**] 
 """)
      
 
 with st.expander("What happens when Engine Fire Shutoff Button is pressed?"):
      st.write(f"""
-- {hightlight}[**The fuel shutoff valve**] 
-- {hightlight}[**The PRSOV**] 
-- {hightlight}[**The hydraulic shutoff valves are closed**] 
+- {hightlight}[**The fuel shutoff valve closes**] 
+- {hightlight}[**The PRSOV closes**] 
+- {hightlight}[**The hydraulic shutoff valve closes**] 
 - {hightlight}[**The fire bottle is armed**] 
-- {hightlight}[**Whit strip illuminates**] 
+- {hightlight}[**White strip illuminates**] 
 """)
      
 

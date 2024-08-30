@@ -87,10 +87,7 @@ with st.expander("What supplies power to the FADEC?"):
 """)
      
 
-with st.expander("?"):
-     st.write(f"""
-- {hightlight}[****] 
-""")
+
      
 
 with st.expander("What are some functions of the FADEC?"):
@@ -99,7 +96,7 @@ with st.expander("What are some functions of the FADEC?"):
 - {hightlight}[**Ensures no limits are exceeded on hot, hung or no start**] 
 - {hightlight}[**Controls ATR**] 
 - {hightlight}[**Provides WHSAIS envelope information to AMS controller**] 
-- {hightlight}[**Schedules fuel flow during starting based on N@ speed and ambient conditions**] 
+- {hightlight}[**Schedules fuel flow during starting based on N2 speed and ambient conditions**] 
 - {hightlight}[**Controls the igniters**] 
 - {hightlight}[**Calculates an N1 speed setting corresponding to the TLA**] 
 """)
@@ -114,7 +111,7 @@ with st.expander("During start, when are both igniters automatically energized?"
 """)
      
 
-with st.expander("How does the FADEC assis an In-Flight start?"):
+with st.expander("How does the FADEC assist an In-Flight start?"):
      st.write(f"""
 - {hightlight}[**Activates both igniters during start**] 
 - {hightlight}[**Disables the abort start logic**] 
@@ -123,7 +120,7 @@ with st.expander("How does the FADEC assis an In-Flight start?"):
 
 with st.expander("How does the FADEC assist in Auto Relight?"):
      st.write(f"""
-- {hightlight}[**Coninuosly monitors the engine parameters**] 
+- {hightlight}[**Continuosly monitors the engine parameters**] 
 - {hightlight}[**Automatically turns on both igniters and schedules the relight fuel flow in case an engine flameout is detected.**] 
 """)
      

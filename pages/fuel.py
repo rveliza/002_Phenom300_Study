@@ -24,16 +24,7 @@ with col2:
 - **PFF** {hightlight}[**Deactivates the fuel pump**]
 """)
 
-col1, col2 = st.columns(cols_settings)
-with col1:
-    st.image("images/buttons_auto_off.png", use_column_width=True)
-with col2:
-    with st.expander(""):
-        st.write(f"""
-- **** {hightlight}[****]
-- **** {hightlight}[****]
-- **** {hightlight}[****]
-""")
+
 
 col1, col2 = st.columns(cols_settings)
 with col1:

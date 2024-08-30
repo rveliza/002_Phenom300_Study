@@ -80,7 +80,7 @@ with col2:
     with st.expander("Bus Tie Knob"):
         st.write(f"""
 - **1 OPEN:** Opens the {hightlight}[**BTC 1 isolating DC BUS 1 and allows the BTC 2 automatic opration**]
-- **AUTO:** {hightlight} Allows the EPGDS to [**automatically operate the BTC 1 and BTC 2**]
+- **AUTO:**  Allows the EPGDS to {hightlight}[**automatically operate the BTC 1 and BTC 2**]
 - **2 OPEN:** Opens the {hightlight}[**BTC 2 isolating DC BUS 2 and allows the BTC 1 automatic opration**]
 """)
 
@@ -179,7 +179,7 @@ with st.expander("What does it mean if the GPU is plugged in, but there is no GP
 with st.expander("What are we looking for when we push in the Electrical Emergency Button on the before taxi checklist?"):
      st.write(f"""
 - {hightlight}[**Batteries show at least 23.5 volts**] 
-- Generators continue to pwer the DC busses in this scenario, but certain other relays open in order to confirm battery voltage
+- Generators continue to power the DC busses in this scenario, but certain other relays open in order to confirm battery voltage
 """)
 
 
@@ -224,6 +224,6 @@ with st.expander("What causes an electrical emergency?"):
      
 with st.expander("What busses will be lost during an engine failure in flight?"):
      st.write(f"""
-- {hightlight}[**Shedd Busses**] 
+- {hightlight}[**Shed Busses**] 
 """)
      

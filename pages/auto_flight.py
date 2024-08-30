@@ -51,7 +51,7 @@ with col1:
 with col2:
     with st.expander("Control Wheel Steering Button"):
         st.write(f"""
-[**Pressing and holding:**]
+**Pressing and holding:**
 - {hightlight}[**Disengages the pitch servos**]
 - {hightlight}[**Disengages the roll servos**]
 - {hightlight}[**Allows the airplane to be hand flown**]

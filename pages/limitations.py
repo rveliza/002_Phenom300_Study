@@ -458,7 +458,7 @@ with st.expander("Minimum Use Height (single engine)"):
 with st.expander("Altitude Loss (maneuvering/Cruise)"):
     st.write(f"{highlight}[**160 ft**]")
 
-with st.expander("Yaw Damper OFF airspeed is limited to 180 ______ if in icing conditions"):
+with st.expander("Yaw Damper OFF airspeed is limited to ______ if in icing conditions"):
     st.write(f"{highlight}[**180 KIAS**]")
 
 

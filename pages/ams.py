@@ -24,7 +24,7 @@ i.  {hightlight}[turns off al ACS lines (FCSOVs / ECSs) => PRSOVs]
 ii. {hightlight}[opens the RAV to emergency ventilation]                
 - 1: activates the left-hand line (ACS 1) -> FCSOV # 1
 - BOTH: activates both lines (ACS 1 and ACS 2)
-- 2: activates the right-nad line (ACS 2) -> FCSOV # 2
+- 2: activates the right-hand line (ACS 2) -> FCSOV # 2
 """)
         
 
@@ -41,7 +41,7 @@ with col2:
 - MAN: Manual operation of temperature contol system
 - AUTO: Automatic operation of temperature control system
 - OFF: 
-    - {hightlight}[Turns off the VCS (compressor/condenser fand and evaporators)]
+    - {hightlight}[Turns off the VCS (compressor/condenser and and evaporators)]
     - Automatic mode is kept operative in this position
     - {hightlight}[Independet zonal temperature control is not operative]
 """)
@@ -72,8 +72,8 @@ with col2:
     with st.expander("Dump Button"):    
         st.write(f"""
 - Opens the OFV {hightlight}[**Rapid cabin depressurization**]
-- Commans OFF the recirculation fans
-- White strim bar illuminates.
+- Commands OFF the recirculation fans
+- White strip bar illuminates.
 """)
         
         st.write("""
@@ -132,14 +132,14 @@ st.write("## Question Bank")
 with st.expander("To what systems does the interconnected pneumatic system provide temperature and controlled air?"):
      st.write(f"""
 - {hightlight}[**Air Conditioning**](cabin heating)
-- {hightlight}[**cabin pressurization**]
+- {hightlight}[**Cabin pressurization**]
 - {hightlight}[**Wing/Stab Anti-Ice**]
 """)
      
 with st.expander("How is RAM air used in the aircraft?"):
      st.write(f"""
 - Ram air is used to {hightlight}[**decrease bleed air temperature in the heat exchanger**]
-- {hightlight}[**Summpy fresh air to the cockpit/cabin**] is specific cases
+- {hightlight}[**Supply fresh air to the cockpit/cabin**] is specific cases
 """)
      
 with st.expander("What input is required from the flight crew prior to departure for the pressurization system to operate automatically?"):
@@ -181,9 +181,9 @@ with st.expander("How is temperature of the air conditioning system to the cabin
 - {hightlight}[**Temperature Modulating Valves (TMV's)**] mix cooled air from the heat exchanger with hot bleed air based on temperature selection on the cockpit control panel
 """)
      
-with st.expander("What is the function of the Capor Cycle System (VCS)?"):
+with st.expander("What is the function of the Vapor Cycle System (VCS)?"):
      st.write(f"""
-- {hightlight}[**Provides cooling air fot the cabin and cockpit operated manually by the ECS controller**] 
+- {hightlight}[**Provides cooling air for the cabin and cockpit operated manually by the ECS controller**] 
 """)
 
 with st.expander("When can the VCS be operated on the ground?"):
@@ -210,7 +210,7 @@ with st.expander("What is used for cooling inside the cockpit and cabin?"):
 - {hightlight}[**Vapor Cycle System**] 
 """)
 
-with st.expander("Describe the configuration of the A/C system on the ground, above 30 $\degree$C wutg both engines running and temperature set to max cool:"):
+with st.expander("Describe the configuration of the A/C system on the ground, above 30 $\degree$C with both engines running and temperature set to max cool:"):
      st.write(f"""
 - {hightlight}[**Both PRSOV's close**] 
 - {hightlight}[**VCS is turned by the ECS controller**] 
@@ -230,10 +230,10 @@ with st.expander("List the two ECMU channles"):
 with st.expander("Describe HI FIELD annunciation"):
      st.write(f"""
 - {hightlight}[**CPCS considers a takeoff or landing field above 9,600 ft as high field operation**] 
-    - Cabin altitude wartinig is reset to {hightlight}[**14,200 ft**] 
+    - Cabin altitude warning is reset to {hightlight}[**14,200 ft**] 
 - {hightlight}[**When aircraft above 25,000 ft, ECMU resets to original configuration**] 
     - {hightlight}[**EICAS HI FIELD disappears**] 
-    - Cabin altitude warning returs to {hightlight}[**10,000 ft**] 
+    - Cabin altitude warning returns to {hightlight}[**10,000 ft**] 
 """)
 
 with st.expander("What will occur if an AMS CTRL FAIL CAS message appears?"):
