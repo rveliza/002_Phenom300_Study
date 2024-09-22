@@ -153,7 +153,7 @@ with st.expander("How is bleed system controlled?"):
 """)
      
 
-with st.expander("Does a PRSOV automatically close in case of a single engine takoff condition?"):
+with st.expander("Does a PRSOV automatically close in case of a single engine takeoff condition?"):
      st.write(f"""
 - {hightlight}[**Yes**]
 """)
