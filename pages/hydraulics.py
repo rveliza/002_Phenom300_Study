@@ -39,7 +39,7 @@ with st.expander("HYD HI TEMP CAS indicates?"):
 
 with st.expander("Purpose of priority valve?"):
      st.write(f"""
-- {hightlight}[**Give systems using hydraulic power priority over the landing gear if they are used simultaneusly**] 
+- {hightlight}[**Give systems using hydraulic power priority over the landing gear if they are used simultaneously**] 
 """)
      
 
@@ -121,7 +121,7 @@ with st.expander("What does a HYD LO PRES CAS message indicate?"):
 """)
      
 
-with st.expander("What does a HYD SOV 1/2 FAL CAS message indicate?"):
+with st.expander("What does a HYD SOV 1/2 FAIL CAS message indicate?"):
      st.write(f"""
 - {hightlight}[**A FSOV was commanded to close and didn't**] 
 - {hightlight}[**A FSOV position does not agree with its switch position**] 
