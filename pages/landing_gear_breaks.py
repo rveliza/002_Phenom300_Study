@@ -18,11 +18,11 @@ with st.expander("Following a hydraulic system failure, how many actuations of t
 
 with st.expander("What holds the Landing Gear in the UP position?"):
      st.write(f"""
-- {hightlight}[**One up lock for each landing gear**] 
+- {hightlight}[**One uplock for each landing gear**] 
 """)
      
 
-with st.expander("How does the touchdown protection function work to avoid blowout on landint?"):
+with st.expander("How does the touchdown protection function work to avoid blowout on landing?"):
      st.write(f"""
 - {hightlight}[**It prevents any brake application prior to WOW and main wheel spin up**] 
 """)
@@ -32,7 +32,7 @@ with st.expander("Explain the Emergency Extension process"):
      st.write(f"""
 - {hightlight}[**Pull out the free handle that activates the free-fall selector valve and releases all residual hydraulic pressure from the langing gear lines to the return line**] 
 - {hightlight}[**Mechanically releases the landing gear uplocks**] 
-- {hightlight}[**Gravitational and aerodynami forces extend the landing gear**] 
+- {hightlight}[**Gravitational and aerodynamic forces extend the landing gear**] 
 - {hightlight}[**The downlock mechanism then locks the gear in its fully extended position**] 
 """)
      
@@ -46,7 +46,7 @@ with st.expander("When flap lever is set to either 0, 1, or 2 position, when wou
 """)
      
 
-with st.expander("When would the landing gear aural warining sound if flaps fail?"):
+with st.expander("When would the landing gear aural warning sound if flaps fail?"):
      st.write(f"""
 - {hightlight}[**When the difference between pressure altitude and LFE is less than 700 ft while descending**] 
 """)
@@ -142,6 +142,6 @@ with st.expander("Aside from pedal pressure inputs from the pilot, what other in
 with st.expander("What is the brake cooling time?"):
      st.write(f"""
 - {hightlight}[**20 minutes**] 
-     - {hightlight}[**POH vol 2 => Performance => 3-45(Approach and Landing) => page 8**] 
+     - {hightlight}[**POH vol 2 => Performance => 3-45-50(Approach and Landing) => page 8**] 
 """)
      
