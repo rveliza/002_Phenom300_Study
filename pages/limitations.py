@@ -63,7 +63,7 @@ st.write("## Langing Gear Operation/Extended Speed ($v_{lo}$ & $v_{le}$)")
 with st.expander("Maximum speed at which the Landing Gear can be safely extended & retracted ($V_{lo}$):"):
     st.write(f"{highlight}[**250 KIAS**]")
 
-with st.expander("Maximum speed at which the Landing Gear can be safely extended & locked ($V_{le}$):"):
+with st.expander("Maximum speed at which the airplane can be flown with the Landing Gear extended & locked ($V_{le}$):"):
     st.write(f"{highlight}[**250 KIAS**]")
 
 #################### Minimum Control Speed
@@ -126,7 +126,7 @@ else:
 
 
 ####################################### ALTITUDE FLAPS EXTENDED
-st.write("## Maximum Altitude For Flaps Extended")
+st.write("## Maximum Altitude with Flaps Extended")
 
 with st.expander("Maximum altitude with extended Flaps:"):
     st.write(f"{highlight}[**18,000 ft**]")
@@ -204,10 +204,10 @@ st.write(baggage_load_text)
 ################### Wind Limitations
 st.write("## Wind Limitations")
 
-with st.expander("Max takoff and landing tailwind component:"):
+with st.expander("Max takeoff and landing tailwind component:"):
     st.write(f"{highlight}[**10 KTS**]")
 
-with st.expander("Max takeoff and landing tailwind component"):
+with st.expander("Max crosswind component allowed to apply static takeoff power:"):
     st.write(f"{highlight}[**18 KTS**]")
 
 
@@ -216,7 +216,7 @@ with st.expander("Max takeoff and landing tailwind component"):
 if not st.session_state['sb_505_29_0005']:
     st.write("## Hydraulic")
     with st.expander("For airplanes pre-mod SB-29-0005, the hydraulic system accumulator pre-charge check interval:"):
-        st.write(f"{highlight}[**Every 15 days or before the next flight, whechever ocfurs last**]")
+        st.write(f"{highlight}[**Every 15 days or before the next flight, whichever occurs last**]")
     
 
 ########################### Warning
@@ -235,16 +235,16 @@ with st.expander("What are the prohibitions associated with the use of the SVS?"
 ########################### Electrical
 st.write("## Electrical")
 
-with st.expander("Maximum battery voltage required for engine start:"):
+with st.expander("Minimum battery voltage required for engine start:"):
     st.write(f"{highlight}[**24 V**]")
 
-with st.expander("Maximum GPU voltage required for battery charging"):
+with st.expander("Minimum GPU voltage required for battery charging"):
     st.write(f"{highlight}[**27 V**]")
 
 with st.expander("Maximum generator load on ground:"):
     st.write(f"{highlight}[**330 Amps each**]")
              
-with st.expander("Maximum generator load if flight:"):
+with st.expander("Maximum generator load in flight:"):
     st.write(f"{highlight}[**390 Amps each**]")
 
 
@@ -417,18 +417,18 @@ st.write("## Operation In Icing Conditions")
 with st.expander("Maximum Takeoff and Landing Altitude"):
     st.write(f"{highlight}[**10,000 ft**]")
 
-with st.expander("""Maximum Airspeed (flap and gear up)   
+with st.expander("""Minimum Airspeed (flap and gear up)   
                  Wing and Stabilizer Anti-Ice System Inhibited
                  """):
     st.write(f"{highlight}[**165 KIAS**]")
 
-with st.expander("""Maximum Airspeed (flap and gear up)   
-                 Wing and Stabilizer Anti-Ice System Inhibited
+with st.expander("""Minimum Airspeed (flap and gear up)   
+                 Wing and Stabilizer Anti-Ice System Armed
                  """):
     st.write(f"{highlight}[**165 KIAS**]")
 
-with st.expander("""Maximum Airspeed (flap and gear up)   
-                 Wing and Stabilizer Anti-Ice System Inhibited
+with st.expander("""Minimum Airspeed (flap and gear up)   
+                 Wing and Stabilizer Anti-Ice System Uninhibited
                  """):
     st.write(f"{highlight}[**150 KIAS**]")
 
