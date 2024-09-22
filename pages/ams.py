@@ -41,9 +41,9 @@ with col2:
 - MAN: Manual operation of temperature contol system
 - AUTO: Automatic operation of temperature control system
 - OFF: 
-    - {hightlight}[Turns off the VCS (compressor/condenser and and evaporators)]
+    - {hightlight}[Turns off the VCS (compressor/condenser and evaporators)]
     - Automatic mode is kept operative in this position
-    - {hightlight}[Independet zonal temperature control is not operative]
+    - {hightlight}[Independent zonal temperature control is not operative]
 """)
         
 col1, col2 = st.columns(cols_settings)
@@ -176,7 +176,7 @@ with st.expander("What two modes control cockpit and cabin temperature?"):
 - {hightlight}[**Manual**] 
 """)
 
-with st.expander("How is temperature of the air conditioning system to the cabin controll?"):
+with st.expander("How is temperature of the air conditioning system to the cabin controlled?"):
      st.write(f"""
 - {hightlight}[**Temperature Modulating Valves (TMV's)**] mix cooled air from the heat exchanger with hot bleed air based on temperature selection on the cockpit control panel
 """)
