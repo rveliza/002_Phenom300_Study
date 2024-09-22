@@ -172,3 +172,8 @@ with st.expander("In case of a fuel imbalance, when will the Fuel Imbalance CAS 
 - {hightlight}[**44 lbs => Fuel Equal**] 
 """)
      
+with st.expander("Which buses power the electric boost pumps?"):
+     st.write(f"""
+- DC PUMP 1: {hightlight}[**Emergency Bus**] 
+- DC PUMP 2: {hightlight}[**DC BUS 2**] 
+""")
