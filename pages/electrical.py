@@ -27,8 +27,8 @@ with col1:
 with col2:
     with st.expander("Ground Power Unit (GPU) Button"):
         st.write(f"""
-- **PUSH IN:** {hightlight}[**connects the DC GPU to the CENTRAL BUS, according to the soiurce priority**]
-- **PUSH OUT:** {hightlight}isolates de DC GPU from the CENTRAL BUS
+- **PUSH IN:** {hightlight}[**connects the DC GPU to the CENTRAL BUS, according to the source priority**]
+- **PUSH OUT:** {hightlight}[**isolates de DC GPU from the CENTRAL BUS**]
 """)
 
 col1, col2 = st.columns(cols_settings)
