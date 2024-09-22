@@ -64,7 +64,7 @@ with st.expander("What are the functions of the Multi-Function Spoilers?"):
 - {hightlight}[**Ground Spoilers**] 
     - Aircraft on the ground
     - Thrust levers idle
-    - Spoilers armed (deploy to 35 $\\degre$ at approximately 1.2 seconds)
+    - Spoilers armed (deploy to 35 $\\degree$ at approximately 1.2 seconds)
 """)
      
 
@@ -106,7 +106,7 @@ with st.expander("What are the secondary flight controls?"):
 with st.expander("What do each of the FCE's systems control?"):
      st.write(f"""
 - {hightlight}[**FCE 1**] 
--    {hightlight}[**Pitch Trim Backup**] 
+    - {hightlight}[**Pitch Trim Backup**] 
     - {hightlight}[**Flaps**] 
 - {hightlight}[**FCE 2**] 
     - {hightlight}[**Normal Pitch Trim**] 
@@ -177,7 +177,7 @@ with st.expander("Where are the auto-tab surfaces located and what do they do?")
 with st.expander("How are elevator commands generated?"):
      st.write(f"""
 - {hightlight}[**Autopilot**] 
-- {hightlight}[**Control Whell**] 
+- {hightlight}[**Control Wheel**] 
 - {hightlight}[**Stick Pusher**] 
 """)
      
