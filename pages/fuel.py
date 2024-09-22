@@ -21,7 +21,7 @@ with col2:
 **Emergency Bus**  
 - **ON:** {hightlight}[**Activates the fuel pump**]
 - **AUTO:** {hightlight}[**Automatically operates the fuel pump according to the system's logic**]
-- **PFF** {hightlight}[**Deactivates the fuel pump**]
+- **OFF** {hightlight}[**Deactivates the fuel pump**]
 """)
 
 
@@ -33,7 +33,7 @@ with col2:
     with st.expander("Crossfeed Valve Knob (XFEED)"):
         st.write(f"""
 - **LO1:** {hightlight}[**Open the crossfeed valve and turns on electrical pump 2 (inside right tank).  Both engines are fed by the right tank**]
-- **OFF:** {hightlight}[**Colse the crossfeed valve**]
+- **OFF:** {hightlight}[**Close the crossfeed valve**]
 - **LO2** {hightlight}[**Open the crossfeed valve and turns on electrical pump 1 (inside left tank).  Both engines are fed by the right tank**]
 """)
 
@@ -57,7 +57,7 @@ with st.expander("Maximum fuel imbalance?"):
 """)
      
 
-with st.expander("When are elecrric fuel pumps used?"):
+with st.expander("When are electric fuel pumps used?"):
      st.write(f"""
 - {hightlight}[**Engine start**] 
 - {hightlight}[**Ejector pump failure**] 
@@ -120,7 +120,7 @@ with st.expander("Will the total tank quantity indication be lost if only one wi
 
 with st.expander("What is the only way to close a fuel shutoff valve?"):
      st.write(f"""
-- {hightlight}[**By pusshing the fire shutoff pushbotton**] 
+- {hightlight}[**By pushing the fire shutoff pushbutton**] 
 """)
      
 
@@ -144,7 +144,7 @@ with st.expander("Is there de-fueling capability?"):
 
 with st.expander("While refueling, what monitors the fuel quantity in the tanks and controls refueling flow into each tank?"):
      st.write(f"""
-- {hightlight}[**EFCU - Electronif Fuel Control Unit**] 
+- {hightlight}[**EFCU - Electronic Fuel Control Unit**] 
 """)
      
 
