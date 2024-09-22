@@ -79,7 +79,7 @@ with st.expander("What does the green circle on the airspeed indicator indicate?
 with st.expander("What happens to PFD2 and MFD in the event the left side PFD fails?"):
      st.write(f"""
 - {hightlight}[**MFD enters reversionary mode**] 
-- {hightlight}[**PFD remains normal**] 
+- {hightlight}[**PFD2 remains normal**] 
 """)
      
 
