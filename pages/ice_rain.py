@@ -19,7 +19,7 @@ with col2:
     with st.expander("Windshield Heating Switch"):
         st.write(f"""
 - **ON:** {hightlight}[**Activates the associated windshiel heating system**]
-- **OFF:** {hightlight}[**Deactivates the associated windshiel heating system**]
+- **OFF:** {hightlight}[**Deactivates the associated windshield heating system**]
 """)
 
 col1, col2 = st.columns(cols_settings)
@@ -57,7 +57,7 @@ with col2:
         
 st.write("## Question Bank")
 
-with st.expander("Whin an engine failure in icing conditions, which anti-ice systems will be lost or significanlty degraded?"):
+with st.expander("Whith an engine failure in icing conditions, which anti-ice systems will be lost or significanlty degraded?"):
      st.write(f"""
 - {hightlight}[**Engine AI of failed engine**] Lost
 - {hightlight}[**Wing/Stab Anti-ice**] Degraded to 15,000 ft
@@ -81,7 +81,7 @@ with st.expander("Describe the AUTO mode for ADS heating system"):
 """)
      
 
-with st.expander("Wing and Hosrizontal Stabilizer icing protection os provided by?"):
+with st.expander("Wing and Horizontal Stabilizer icing protection is provided by?"):
      st.write(f"""
 - {hightlight}[**A thermal anti-ice system using temperature and pressure controlled bleed air from the aircraft pneumatic system**] 
 """)
@@ -91,7 +91,7 @@ with st.expander("Which subsystems do the ice and rain protection include?"):
      st.write(f"""
 - {hightlight}[**Wings**] 
 - {hightlight}[**Horizonta Stabilizer**] 
-- {hightlight}[**Entine air intakes**] 
+- {hightlight}[**Engine air intakes**] 
 - {hightlight}[**Pitot and Static**] 
 - {hightlight}[**Windshields**] 
 """)
