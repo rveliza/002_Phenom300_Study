@@ -143,55 +143,76 @@ with st.expander(f"Weight and Balance aircraft with BEW of {BEW_WEIGHT} lbs."):
     with col1:
         fwd_bag_weight =  st.number_input("Fwd Bag (110 max)", min_value=0, max_value=110, value=0, step=5)
         fwd_bar_moment = fwd_bag_weight * FWD_BAG_ARM
+        st.write(f"Moment: {fwd_bar_moment:.2f}")
         
         pilot_copilot_weight = st.number_input("Pilot and Copilot", min_value=0, value=400, step=5)
         pilot_copilot_moment = pilot_copilot_weight * PILOT_COPILOT_ARM
+        st.write(f"Moment: {pilot_copilot_moment:.2f}")
         
         lh_fwd_cabinet_weight = st.number_input("LH FWD Cab(44 max)", min_value=0, max_value=44, value=40, step=1)
         lh_fwd_cabinet_moment = lh_fwd_cabinet_weight * LH_FWD_CABINET_ARM
+        st.write(f"Moment: {lh_fwd_cabinet_moment:.2f}")
         
         rh_refresh_ctr_weight = st.number_input("RH Refresh. Ctr (71 max)", min_value=0, max_value=71, value=0, step=1)
         rh_refresh_ctr_moment = rh_refresh_ctr_weight * RH_REFRESH_CTR_ARM
+        st.write(f"Moment: {rh_refresh_ctr_moment:.2f}")
         
         pax_1_2_weight = st.number_input("Pax 1 and 2", min_value=0, value=400, step=5)
         pax_1_2_moment = pax_1_2_weight * PAX_1_2_ARM
+        st.write(f"Moment: {pax_1_2_moment:.2f}")
 
     with col2:
         pax_3_4_weight = st.number_input("Pax 3 and 4", min_value=0, value=200, step=5)
         pax_3_4_moment = pax_3_4_weight * PAX_3_4_ARM
+        st.write(f"Moment: {pax_3_4_moment:.2f}")
         
         pax_5_6_weight = st.number_input("Pax 5 and 6", min_value=0, value=0, step=5)
         pax_5_6_moment = pax_5_6_weight * PAX_5_6_ARM
+        st.write(f"Moment: {pax_5_6_moment:.2f}")
         
         lav_pax_weight = st.number_input("Lav (passenger)", min_value=0, value=0, step=5)
         lav_pax_moment = lav_pax_weight * LAV_PAX_ARM
+        st.write(f"Moment: {lav_pax_moment:.2f}")
         
         lav_cab_weight = st.number_input("Lav Cab (33 max)", min_value=0, max_value=33, value=0, step=1)
         lav_cab_moment = lav_cab_weight * LAV_CAB_ARM
+        st.write(f"Moment: {lav_cab_moment:.2f}")
         
         aft_bag_weight = st.number_input("Aft Bag (463 max)", min_value=0, max_value=463, value=100, step=1)
         aft_bag_moment = aft_bag_weight * AFT_BAG_ARM
+        st.write(f"Moment: {aft_bag_moment:.2f}")
         
         zero_fuel_weight = BEW_WEIGHT + fwd_bag_weight + pilot_copilot_weight + lh_fwd_cabinet_weight + rh_refresh_ctr_weight + pax_1_2_weight + pax_3_4_weight + pax_5_6_weight + lav_cab_weight + lav_pax_weight + aft_bag_weight
         zero_fuel_moment = BEW_MOMENT + fwd_bar_moment + pilot_copilot_moment + lh_fwd_cabinet_moment + rh_refresh_ctr_moment + pax_1_2_moment + pax_3_4_moment + pax_5_6_moment + lav_cab_moment + lav_pax_moment + aft_bag_moment
         zero_fuel_cg = get_cg(zero_fuel_moment, zero_fuel_weight)
+
+        st.write(f"Zero Fuel Weight: {zero_fuel_weight:.2f}")
+        st.write(f"Zero Fuel Moment: {zero_fuel_moment: .2f}")
+        st.write(f"Zero Fuel Weight CG: {zero_fuel_cg:.2f}")
+
     
     with col3:
         ramp_fuel = st.number_input("Ramp Fuel", min_value=300, 
                                     max_value=5401, value=4000, step=10)
         ramp_weight = zero_fuel_weight + ramp_fuel
+        st.write(f"Ramp Weight: {ramp_weight:.2f}")
         
         taxi_fuel = st.number_input("Taxi Fuel", min_value=0, 
                                     value=55, step=5)
         take_off_fuel = ramp_fuel - taxi_fuel
+        st.write(f"Takeoff Fuel: {take_off_fuel:.2f}")
 
         fuel_rnd_50 = get_fuel_rnd_50(take_off_fuel)
         take_off_fuel_arm = fuel_arms[fuel_rnd_50]
         st.write(f"Takeoff fuel arm: {take_off_fuel_arm}")
         take_off_fuel_moment = take_off_fuel * take_off_fuel_arm
+        st.write(f"Takeoff fuel moment: {take_off_fuel_moment:.2f}")
         take_off_moment = zero_fuel_moment + take_off_fuel_moment
         take_off_weight = zero_fuel_weight + take_off_fuel
         take_off_cg = get_cg(take_off_moment, take_off_weight)
+        st.write(f"Takeoff Weight: {take_off_weight:.2f}")
+        st.write(f"Takeoff Moment: {take_off_moment: .2f}")
+        st.write(f"Takeoff CG: {take_off_cg}")
         
         land_fuel_weight = st.number_input("Est. Land fuel", min_value=0, 
                                            max_value=5401, value=2000, step=10)
@@ -201,8 +222,14 @@ with st.expander(f"Weight and Balance aircraft with BEW of {BEW_WEIGHT} lbs."):
         land_fuel_arm = fuel_arms[land_fuel_rnd_50]
         st.write(f"Landing fuel arm: {land_fuel_arm}")
         land_fuel_moment = land_fuel_weight * land_fuel_arm
+        st.write(f"Landing fuel moment: {land_fuel_moment:.2f}")
+        st.write(f"Landing fuel arm: {land_fuel_arm}")
         land_moment = zero_fuel_moment + land_fuel_moment
         land_cg = get_cg(land_moment, land_weight)
+
+        st.write(f"Landing Weight: {land_weight:.2f}")
+        st.write(f"Landing Moment: {land_moment:.2f}")
+        st.write(f"Landing CG: {land_cg:.2f}")
         
       
 
