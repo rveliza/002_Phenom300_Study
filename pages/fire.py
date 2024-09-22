@@ -65,7 +65,7 @@ with st.expander("How many engine fire bottles are installed in the aircraft and
 """)
      
 
-with st.expander("Fire detection system test indicatios?"):
+with st.expander("Fire detection system test indications?"):
      st.write(f"""
 - {hightlight}[**Aural "FIRE, FIRE"**] 
 - {hightlight}[**CAS ENG 1/2 FIRE**] 
