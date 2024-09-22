@@ -45,7 +45,7 @@ with st.expander("What FAR requirements for crew oxygen in a pressurizaed/unpres
     - {hightlight}[**12,500 ft - 14,000 ft, 30 min max**] the oxygen is required
 """)
      
-with st.expander("FAR 91.211 summary:?"):
+with st.expander("FAR 91.211 summary:"):
      st.write(f"""
 - {hightlight}[**Above FL410:**] 
     - One pilot must use an oxygen mask at all times
