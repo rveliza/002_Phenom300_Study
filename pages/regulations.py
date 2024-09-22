@@ -16,7 +16,7 @@ with st.expander("Where is the data required to operate in RVSM?"):
 
 with st.expander("What is needed to operate in RVSM?"):
      st.write(f"""
-- {hightlight}[**Two RVSM compiant ADS**] 
+- {hightlight}[**Two RVSM compliant ADS**] 
 - {hightlight}[**One Autopilot with altitude hold mode**] 
 - {hightlight}[**One Altitude alerter**] 
 - {hightlight}[**One transponder**] 
