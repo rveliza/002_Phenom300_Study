@@ -36,9 +36,9 @@ with col2:
         st.write(f"""
 - {hightlight}[**Selects the TO or GA modes**] according to the airplane status (AIR/GND)
 - {hightlight}[**FMA lateral mode**] annunciation displays the following:
-    - **ROL**: takoff lateral mode
+    - **ROL**: takeoff lateral mode
 - {hightlight}[**FMA vertical mode**] annunciation displays the following:
-    - **TO**: takoff vertical mode
+    - **TO**: takeoff vertical mode
     - **GA**: go-around lateral mode
 
 """)
