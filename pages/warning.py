@@ -50,6 +50,6 @@ with st.expander("What conditions will cause a takeoff configuration, on ground 
 - {hightlight}[**No Takeoff Brakes**] 
 - {hightlight}[**No Takeoff Flaps**] 
 - {hightlight}[**No Takeoff Spoilers**] 
-- {hightlight}[**No Takoff Trim**] 
+- {hightlight}[**No Takeoff Trim**] 
 """)
      
