@@ -479,8 +479,24 @@ if st.session_state['autothrottle']:
         st.write(f"{highlight}[**220 ft AGL**]")
 
 
+######################### Minimum Crew
+st.write("Minimum Crew")
+
+with st.expander("Minimum Flight Crew:"):
+    st.write(f"""
+- 1 Pilot
+    - Pilot must occupy the left cockpit seat
+    - An operative autopilot and flight director
+    - Must use a headset mounted microphone""")
 
 
+######################### Turbulent Air Penetration
+st.write("Turbulent Air Penetration")
+
+with st.expander("Maximum recommended turbulent air penetration speed:"):
+    st.write(f"""
+    - Below 32000 ft: 232 KIAS
+    - Above 32000 ft: 232 KIAS/M0.65, whichever is lower""")
 
 
 
