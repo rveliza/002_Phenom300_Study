@@ -7,6 +7,7 @@ st.session_state['sb_505_00_0008'] = st.toggle('SB 505-00-0008: Operational Weig
 ['sb_505_00_0008'])
 st.session_state['sb_505_29_0005'] = st.toggle('SB 505-29-0005: Replacement of the hydraulic accumulator', value=st.session_state['sb_505_29_0005'])
 st.session_state['autothrottle'] = st.toggle('Autothrottle', value=st.session_state['autothrottle'])
+st.session_state['seat_config'] = st.radio("Seat Type", options=["Decrane / UTX", "East", "Tracking"])
 
 # st.json(st.session_state)
 

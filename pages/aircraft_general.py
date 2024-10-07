@@ -22,8 +22,8 @@ with st.expander("Aircraft Dimensions"):
     with col2:
         st.write("""
     - Length: 52 ft (16 m)
-    - Width:  52 ft (26 m)
-    - Height: 17 ft 
+    - Width:  52 ft (16 m)
+    - Height: 17 ft (6 m)
     """)
     
 with st.expander("Turn Radius"):

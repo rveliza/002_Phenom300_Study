@@ -183,7 +183,7 @@ with st.expander("How is temperature of the air conditioning system to the cabin
      
 with st.expander("What is the function of the Vapor Cycle System (VCS)?"):
      st.write(f"""
-- {hightlight}[**Provides cooling air for the cabin and cockpit operated manually by the ECS controller**] 
+- {hightlight}[**Provides cooling air for the cabin and cockpit operated automatically by the ECS controller**] 
 """)
 
 with st.expander("When can the VCS be operated on the ground?"):
