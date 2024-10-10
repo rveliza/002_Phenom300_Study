@@ -76,7 +76,7 @@ with st.expander("What is the purpose of the Ventral Rudder?"):
 
 with st.expander("Describe the flap system operation?"):
      st.write(f"""
-- {hightlight}[**FCE operates one motor driving six flexible shafts which extends the flaps**] 
+- {hightlight}[**FCE operates one motor driving six flexible shafts thus six Irreversible Flap Linear Actuator's (IFLA's) which extend the flaps**] 
 """)
      
 
@@ -124,7 +124,7 @@ with st.expander("Flap position degrees and airspeed limitations?"):
 
 with st.expander("If extended, at what airspeed will the speed brakes retract?"):
      st.write(f"""
-- {hightlight}[**110 Kts**] 
+- {hightlight}[**125 Kts**] 
 """)
      
 
