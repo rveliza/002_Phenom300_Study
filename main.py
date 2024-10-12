@@ -19,7 +19,8 @@ oxygen_page = st.Page("pages/oxygen.py", title="Oxygen System", icon="🫁")
 warning_page = st.Page("pages/warning.py", title="Warning System", icon="⚠️")
 regulations_page = st.Page("pages/regulations.py", title="Regulations", icon="🏛️")
 wb_page = st.Page("pages/weight_balance.py", title="Weight and Balance", icon="⚖️")
-units_converter_page = st.Page("pages/units.py", title="Units Converter", icon="🤖")
+units_converter_page = st.Page("pages/units.py", title="Units Converter", icon="")
+isa_page = st.Page("pages/isa.py", title="ISA")
 
 
 if 'first_visit' not in st.session_state:
@@ -54,6 +55,7 @@ pg = st.navigation({
                                          ],
                     "Tools": [wb_page,
                               units_converter_page,
+                              isa_page,
                               regulations_page,
                               configuration_page],
                      })
