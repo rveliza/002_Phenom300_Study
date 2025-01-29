@@ -14,7 +14,7 @@ st.write("#### Contro Wheel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/buttons_auto_off.png", use_column_width=True)
+    st.image("images/buttons_auto_off.png", use_container_width=True)
 
 with col2:
     with st.expander("Quick Disconnect Button"):
@@ -29,7 +29,7 @@ with col2:
         
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/panels_throttles.png", use_column_width=True)
+    st.image("images/panels_throttles.png", use_container_width=True)
 
 with col2:
     with st.expander("Takeoff and Go-Around Button"):
@@ -46,7 +46,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/buttons_auto_off.png", use_column_width=True)
+    st.image("images/buttons_auto_off.png", use_container_width=True)
 
 with col2:
     with st.expander("Control Wheel Steering Button"):

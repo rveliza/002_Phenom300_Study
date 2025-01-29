@@ -14,7 +14,7 @@ st.write("#### Hydraulic System Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/panels_hydraulics.png", use_column_width=True)
+    st.image("images/panels_hydraulics.png", use_container_width=True)
 with col2:
     with st.expander("Hydraulic Pump SOV Switch"):
         st.write(f"""

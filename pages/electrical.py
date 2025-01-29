@@ -13,7 +13,7 @@ st.write("#### Electrical Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_gen_1.png", use_column_width=True)
+    st.image("images/switches_gen_1.png", use_container_width=True)
 with col2:
     with st.expander("Generator 1 Switch"):
         st.write(f"""
@@ -23,7 +23,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/buttons_gpu.png", use_column_width=True)
+    st.image("images/buttons_gpu.png", use_container_width=True)
 with col2:
     with st.expander("Ground Power Unit (GPU) Button"):
         st.write(f"""
@@ -33,7 +33,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_gen_2.png", use_column_width=True)
+    st.image("images/switches_gen_2.png", use_container_width=True)
 with col2:
     with st.expander("Generator 2 Switch"):
         st.write(f"""
@@ -43,7 +43,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_batt_1.png", use_column_width=True)
+    st.image("images/switches_batt_1.png", use_container_width=True)
 with col2:
     with st.expander("Battery 1 Switch"):
         st.write(f"""
@@ -54,7 +54,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/buttons_elec_emer.png", use_column_width=True)
+    st.image("images/buttons_elec_emer.png", use_container_width=True)
 with col2:
     with st.expander("Electrical Emergency Button"):
         st.write(f"""
@@ -65,7 +65,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_batt_2.png", use_column_width=True)
+    st.image("images/switches_batt_2.png", use_container_width=True)
 with col2:
     with st.expander("Battery 2 Switch"):
         st.write(f"""
@@ -75,7 +75,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_bus_tie.png", use_column_width=True)
+    st.image("images/knobs_bus_tie.png", use_container_width=True)
 with col2:
     with st.expander("Bus Tie Knob"):
         st.write(f"""

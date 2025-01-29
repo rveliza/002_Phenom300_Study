@@ -14,7 +14,7 @@ st.write("#### Air Conditioning Panel")
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-    st.image("images/knobs_ecs.png", use_column_width=False)
+    st.image("images/knobs_ecs.png", use_container_width=False)
 
 with col2:
     with st.expander("Environmental Control System Knob"):
@@ -33,7 +33,7 @@ ii. {hightlight}[opens the RAV to emergency ventilation]
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-    st.image("images/switches_ac_switch.png", use_column_width=False)
+    st.image("images/switches_ac_switch.png", use_container_width=False)
 
 with col2:
     with st.expander("Air conditioning Temperature Mode Switch"):
@@ -49,7 +49,7 @@ with col2:
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-    st.image("images/switches_ac_temp_man.png", use_column_width=False)
+    st.image("images/switches_ac_temp_man.png", use_container_width=False)
 with col2:
     with st.expander("Air Conditioning Temperature Manual Switch"):
             st.write(f"""
@@ -66,7 +66,7 @@ st.write("#### Pressurization and Pneumatic Control Panel")
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-        st.image("images/buttons_dump.png", use_column_width=False)
+        st.image("images/buttons_dump.png", use_container_width=False)
 
 with col2:
     with st.expander("Dump Button"):    
@@ -87,7 +87,7 @@ with col2:
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-    st.image("images/switches_cabin_alt.png", use_column_width=False)
+    st.image("images/switches_cabin_alt.png", use_container_width=False)
 
 with col2:
     with st.expander("Cabin Altitude Selector Switch"):
@@ -101,7 +101,7 @@ with col2:
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-    st.image("images/panels_pneumatics.png", use_column_width=True)
+    st.image("images/panels_pneumatics.png", use_container_width=True)
 
 with col2:
     with st.expander("Bleed Switches (PRSOV's)"):
@@ -117,7 +117,7 @@ with col2:
 col1, col2 = st.columns(cols_settings)
 
 with col1:
-    st.image("images/panels_pneumatics.png", use_column_width=True)
+    st.image("images/panels_pneumatics.png", use_container_width=True)
 
 with col2:
     with st.expander("Cross Bleed Knob"):

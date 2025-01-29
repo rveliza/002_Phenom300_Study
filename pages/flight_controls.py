@@ -14,7 +14,7 @@ st.write("#### Trim Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_yaw.png", use_column_width=True)
+    st.image("images/switches_yaw.png", use_container_width=True)
 with col2:
     with st.expander("Yaw Trim Switch (Spring Loaded to Neutral)"):
         st.write(f"""
@@ -23,7 +23,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_roll.png", use_column_width=True)
+    st.image("images/knobs_roll.png", use_container_width=True)
 with col2:
     with st.expander("Roll Trim Switch (Spring Loaded to Neutral)"):
         st.write(f"""
@@ -32,7 +32,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_ptch_trim_man.png", use_column_width=True)
+    st.image("images/switches_ptch_trim_man.png", use_container_width=True)
 with col2:
     with st.expander("Pitch Trim Mode Switch"):
         st.write(f"""
@@ -42,7 +42,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_ptch_bckp.png", use_column_width=True)
+    st.image("images/switches_ptch_bckp.png", use_container_width=True)
 with col2:
     with st.expander("Pitch Trim Backup Switch (Spring Loaded) to Neutral"):
         st.write(f"""

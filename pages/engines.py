@@ -14,7 +14,7 @@ st.write("#### Engine Control Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_engine.png", use_column_width=True)
+    st.image("images/knobs_engine.png", use_container_width=True)
 with col2:
     with st.expander("Eng Start/Stop Knob"):
         st.write(f"""
@@ -26,7 +26,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_ign.png", use_column_width=True)
+    st.image("images/switches_ign.png", use_container_width=True)
 with col2:
     with st.expander("Eng Ignition Switch"):
         st.write(f"""

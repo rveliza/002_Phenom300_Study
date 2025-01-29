@@ -14,7 +14,7 @@ st.write("#### Ice and Rain Protection Control Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_windshield.png", use_column_width=True)
+    st.image("images/switches_windshield.png", use_container_width=True)
 with col2:
     with st.expander("Windshield Heating Switch"):
         st.write(f"""
@@ -24,7 +24,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_ads.png", use_column_width=True)
+    st.image("images/knobs_ads.png", use_container_width=True)
 with col2:
     with st.expander("Air Data System/Angle of Attack Heating Knob"):
         st.write(f"""
@@ -35,7 +35,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_wingstab.png", use_column_width=True)
+    st.image("images/switches_wingstab.png", use_container_width=True)
 with col2:
     with st.expander("Wing/Stabilizer Ice Protection Switch"):
         st.write(f"""
@@ -46,7 +46,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_engine_ice.png", use_column_width=True)
+    st.image("images/switches_engine_ice.png", use_container_width=True)
 with col2:
     with st.expander("Engine Ice Protection Switch"):
         st.write(f"""

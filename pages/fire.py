@@ -14,7 +14,7 @@ st.write("#### Engine Fire Protection Control Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/buttons_eng.png", use_column_width=True)
+    st.image("images/buttons_eng.png", use_container_width=True)
 with col2:
     with st.expander("Shutoff 1 and Shutoff 2 Buttons (Guarded)"):
         st.write(f"""
@@ -29,7 +29,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_fire_ext.png", use_column_width=True)
+    st.image("images/switches_fire_ext.png", use_container_width=True)
 with col2:
     with st.expander("Bottle Switch"):
         st.write(f"""

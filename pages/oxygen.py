@@ -14,7 +14,7 @@ st.write("#### Oxygen Control Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_oxygen.png", use_column_width=True)
+    st.image("images/knobs_oxygen.png", use_container_width=True)
 with col2:
     with st.expander("Oxygen Supply Control Knob (Rotary Action)"):
         st.write(f"""
@@ -25,7 +25,7 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/handles_oxygen.png", use_column_width=True)
+    st.image("images/handles_oxygen.png", use_container_width=True)
 with col2:
     with st.expander("Oxygen Supply Handle"):
         st.write(f"""
