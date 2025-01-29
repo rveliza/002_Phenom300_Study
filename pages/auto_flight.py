@@ -9,7 +9,7 @@ st.title("Automatic Flight")
 st.write("## Lights and Switches")
 
 
-st.write("#### Contro Wheel")
+st.write("#### Control Wheel")
 
 
 col1, col2 = st.columns(cols_settings)
