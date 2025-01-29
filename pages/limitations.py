@@ -104,7 +104,7 @@ flaps_table = f"""
 | -------- | :--------:                | :--------:    | :--------: | :------:    |
 | Flap 0   |                           |   150 KIAS    | 0$\degree$ |             |
 | Flap 1   | $\Rightarrow$ 0: V2 + 11  |   140 KIAS    | 8$\degree$ | :orange-background[180 KIAS]  |
-| Flap 2 |$\Rightarrow$ 1: V2 + 9, 1$\Rightarrow$ 0: V2 + 20 |130 KIAS|8$\degree$| :orange-background[170 KIAS]|
+| Flap 2 |$\Rightarrow$ 1: V2 + 9, 1$\Rightarrow$ 0: V2 + 20 |130 KIAS|26$\degree$| :orange-background[170 KIAS]|
 | Flap 3   |     |   130 KIAS    | 26$\degree$| :orange-background[170 KIAS]    |
 | Flap Full|     |   125 KIAS    | 35$\degree$| :orange-background[160 KIAS]    |
 """
