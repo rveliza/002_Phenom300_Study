@@ -148,7 +148,7 @@ st.write("## Runway")
 question_a = "Runway slope:"
 question_b = "Type of runway surface:"
 
-slope = f"{highlight}[**-2% to +2%]"
+slope = f"{highlight}[**-2% to +2%**]"
 surface = f"{highlight}[**Paved**]"
 
 with st.expander(f"""

@@ -25,7 +25,7 @@ isa_page = st.Page("pages/isa.py", title="ISA")
 
 if 'first_visit' not in st.session_state:
     st.session_state['first_visit'] = True
-    st.session_state['pw535e1'] = False
+    st.session_state['pw535e1'] = True
     st.session_state['sb_505_00_0008'] = True
     st.session_state['sb_505_29_0005'] = True
     st.session_state['autothrottle'] = False
