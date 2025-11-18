@@ -37,7 +37,7 @@ with st.expander("Explain the Emergency Extension process"):
 """)
      
 
-with st.expander("When flap lever is set to either 0, 1, or 2 position, when would the landing gear aural wanring soud?"):
+with st.expander("When flap lever is set to either 0, 1, or 2 position, when would the landing gear aural wanring sound?"):
      st.write(f"""
 - {hightlight}[**Difference between pressure altitude and LFE is less that 700 ft**] and,
 - {hightlight}[**Airspeed is below 160 kts**] and,

@@ -65,10 +65,10 @@ with st.expander("Whith an engine failure in icing conditions, which anti-ice sy
 """)
      
 
-with st.expander("What is the realationship of the FADEC to thw Wing/Stab Anti-Ice?"):
+with st.expander("What is the relationship of the FADEC to the Wing/Stab Anti-Ice?"):
      st.write(f"""
 - {hightlight}[**FADEC will always calculate the power needed to satisfy the system**] 
-- {hightlight}[**FADEC will limit the idle position to a power setting necessary to satisfy the system if the Langing Gear up**] 
+- {hightlight}[**FADEC will limit the idle position to a power setting necessary to satisfy the system if the Langing Gear is up**] 
 """)
      
 
@@ -99,7 +99,7 @@ with st.expander("Which subsystems do the ice and rain protection include?"):
 
 with st.expander("With the loss of electrical power, what is the default position of the engine A/I valves?"):
      st.write(f"""
-- {hightlight}[**OPEN, providen continuous bleed air to the engine inlet**] 
+- {hightlight}[**OPEN, providing continuous bleed air to the engine inlet**] 
 """)
      
 

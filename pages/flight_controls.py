@@ -207,10 +207,14 @@ with st.expander("How many trim motors?"):
 
 with st.expander("Config Check Test"):
      st.write(f"""
-**Two**  
 - {hightlight}[**Flaps**] 
 - {hightlight}[**Trim**] 
 - {hightlight}[**Brakes**] 
 - {hightlight}[**Spoilers**] 
+""")
+     
+with st.expander("Describe flap system operation"):
+     st.write(f"""
+- {hightlight}[**FCE operates one electric motor that drives felxible shafts which exted the flaps**] 
 """)
 

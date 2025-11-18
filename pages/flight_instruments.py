@@ -40,7 +40,7 @@ with st.expander("Describe G3000 screen failures"):
 
 with st.expander("What is true concerning a reversionary mode?"):
      st.write(f"""
-- {hightlight}[**Mode of operation in which both flight PFD symboogy and EICAS are displayed simultaneusly on one unit**] 
+- {hightlight}[**Mode of operation in which both flight PFD symbology and EICAS are displayed simultaneously on one unit**] 
 """)
      
 
@@ -52,7 +52,7 @@ with st.expander("How many GPS receivers does the airplane have?"):
 
 with st.expander("What is the primary source of the IESI?"):
      st.write(f"""
-- {hightlight}[**ADS Sby**] 
+- {hightlight}[**ADS SBY**] 
 """)
      
 
@@ -110,7 +110,7 @@ with st.expander("What is the primary source of power to the IESI?"):
 
 with st.expander("How does the CDI indicate navigation source?"):
      st.write(f"""
-- {hightlight}[**Magent for GPS**] 
+- {hightlight}[**Magenta for GPS**] 
 - {hightlight}[**Green single needle for VOR/LOC 1**] 
 - {hightlight}[**Green double needles for VOR/LOC 2**] 
 """)
@@ -131,5 +131,15 @@ with st.expander("What is the primary source of attitude and heading information
 with st.expander("When will the takeoff references automatically be removed?"):
      st.write(f"""
 - {hightlight}[**Accelerating through 160 KIAS**] 
+""")
+     
+with st.expander("What is true regarding reversionary mode?"):
+     st.write(f"""
+- {hightlight}[**Both flight instruments (PFD symbology) and EICAS are displayed simultaneously on one unit**] 
+""")
+     
+with st.expander("What does it mean when NAV source in the HSI is yellow?"):
+     st.write(f"""
+- {hightlight}[**The same NAV source is selected on both PFD's**] 
 """)
      

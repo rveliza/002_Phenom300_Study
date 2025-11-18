@@ -36,7 +36,7 @@ with col2:
 
 st.write("## Question Bank")
 
-with st.expander("What FAR requirements for crew oxygen in a pressurizaed/unpressurized cabin:?"):
+with st.expander("What FAR requirements for crew oxygen in a pressurizaed/unpressurized cabin?"):
      st.write(f"""
 - {hightlight}[**Pressurized cabin:**] 
     - {hightlight}[**Above FL350**] SP must wear mask

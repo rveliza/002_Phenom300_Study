@@ -5,7 +5,7 @@ cols_settings = [20, 80]
 
 
 
-st.title("Automatic Flight")
+st.title("Electrical System")
 st.write("## Lights and Switches")
 
 
@@ -124,7 +124,7 @@ with st.expander("What busses are normally powered by GEN 2?"):
 - {hightlight}[**DC BUS 2**] 
 - {hightlight}[**SHED BUS 2**] 
 - {hightlight}[**CENTRAL BUS**] 
-- {hightlight}[**HOT BATT BUSS 2**] 
+- {hightlight}[**HOT BATT BUS 2**] 
 """)
 
 with st.expander("How many batteries power the airplane?"):
@@ -173,7 +173,7 @@ with st.expander("If a single generator fails in flight, what happens?"):
 
 with st.expander("What does it mean if the GPU is plugged in, but there is no GPU AVAIL light illuminated?"):
      st.write(f"""
-- {hightlight}[**DC power requirement from th GPU of between 26V and 29V is not met**] 
+- {hightlight}[**DC power requirement from the GPU of between 26V and 29V is not met**] 
 """)
 
 with st.expander("What are we looking for when we push in the Electrical Emergency Button on the before taxi checklist?"):

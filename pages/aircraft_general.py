@@ -67,6 +67,11 @@ with st.expander("Maximum takeoff and landing altitude"):
 - 14,000 ft with AFM Supplement 2
 """)
     
+with st.expander("How is the rotating beacon turned on?"):
+    st.write("""
+- By turning one Stop/Start knob to Run
+""")
+    
 with st.expander("AFM"):
     st.write("""
 **Aircraft Specific**

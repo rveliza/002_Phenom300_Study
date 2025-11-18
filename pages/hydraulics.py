@@ -62,7 +62,7 @@ with st.expander("What systems require hydraulic pressure?"):
 
 with st.expander("In case of hydraulic pump malfunction, what prevents rotation without interfering with the continued operation of the engine?"):
      st.write(f"""
-- {hightlight}[**The hydraulic pump connectint shaft to the AGB has a recess designed to work as a shaft shear point if the torque imposed by the hydraulic pump to the AGB exceeds limits**] 
+- {hightlight}[**The hydraulic pump connecting shaft to the AGB has a recess designed to work as a shaft shear point if the torque imposed by the hydraulic pump to the AGB exceeds limits**] 
 """)
      
 
@@ -82,7 +82,7 @@ with st.expander("How much can it hold?"):
 
 with st.expander("What provides contamination protection for the system?"):
      st.write(f"""
-- {hightlight}[**Two filter elements located on the lower portion of the high pressure line.  The filter can capture any particle greater than 5 micros**] 
+- {hightlight}[**Two filter elements located on the lower portion of the high pressure line.  The filter can capture any particle greater than 5 microns**] 
 """)
      
 
