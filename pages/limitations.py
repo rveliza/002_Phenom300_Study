@@ -415,23 +415,32 @@ Autopilot use is {highlight}[**prohibited**] in the following conditions:
 ############################### Operating in Icing Conditions
 st.write("## Operation In Icing Conditions")
 
+if st.session_state['pw535e1']:
+    wing_stab_ice_inhibited = f"{highlight}[**170 KIAS**]"
+    wing_stab_ice_armed = f"{highlight}[**170 KIAS**]"
+    wing_stab_ice_uninhibited = f"{highlight}[**155**]"
+else:
+    wing_stab_ice_inhibited = f"{highlight}[**165 KIAS**]"
+    wing_stab_ice_armed = f"{highlight}[**165 KIAS**]"
+    wing_stab_ice_uninhibited = f"{highlight}[**150 KIAS**]"
+
 with st.expander("Maximum Takeoff and Landing Altitude"):
     st.write(f"{highlight}[**10,000 ft**]")
 
 with st.expander("""Minimum Airspeed (flap and gear up)   
                  Wing and Stabilizer Anti-Ice System Inhibited
                  """):
-    st.write(f"{highlight}[**165 KIAS**]")
+    st.write(f"{wing_stab_ice_inhibited}")
 
 with st.expander("""Minimum Airspeed (flap and gear up)   
                  Wing and Stabilizer Anti-Ice System Armed
                  """):
-    st.write(f"{highlight}[**165 KIAS**]")
+    st.write(f"{wing_stab_ice_armed}")
 
 with st.expander("""Minimum Airspeed (flap and gear up)   
                  Wing and Stabilizer Anti-Ice System Uninhibited
                  """):
-    st.write(f"{highlight}[**150 KIAS**]")
+    st.write(f"{wing_stab_ice_uninhibited}")
 
 
 ############################## Wing Inspection Light
