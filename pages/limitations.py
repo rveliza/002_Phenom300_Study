@@ -71,11 +71,12 @@ st.write("## Minimum Control Speed ($V_{mc}$)")
 
 if st.session_state['pw535e1']:
     vmc_takeoff = f"{highlight}[**99 KIAS**]"
+    vmc_land_no_ice = f"{highlight}[**99 KIAS**]"
+    vmc_land_ice = f"{highlight}[**99 KIAS**]"
 else:
     vmc_takeoff = f"{highlight}[**97 KIAS**]"
-
-vmc_land_no_ice = f"{highlight}[**91 KIAS**]"
-vmc_land_ice = f"{highlight}[**95 KIAS**]"
+    vmc_land_no_ice = f"{highlight}[**91 KIAS**]"
+    vmc_land_ice = f"{highlight}[**95 KIAS**]"
 
 with st.expander("Minimum Control Speed ($V_{mc}$) for takeoff (takeoff flaps):"):
     st.write(vmc_takeoff)
