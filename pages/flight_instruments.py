@@ -72,7 +72,7 @@ with st.expander("What does a yellow altimeter setting indicate?"):
 
 with st.expander("What does the green circle on the airspeed indicator indicate?"):
      st.write(f"""
-- {hightlight}[**1.3 of Pusher**] 
+- {hightlight}[**1.3 of VPusher**] 
 """)
      
 

@@ -101,7 +101,7 @@ with st.expander("QRH"):
     
 with st.expander("When does the LED on the toilet turn red?"):
      st.write(f"""
-- {hightlight}[**Lavatory has reached 90% of total capacity**] 
+- Lavatory has reached 90% of total capacity
 """)
      
      

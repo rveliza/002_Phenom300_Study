@@ -18,7 +18,6 @@ with col1:
 with col2:
     with st.expander("Fuel Pump Selector Switch"):
         st.write(f"""
-**Emergency Bus**  
 - **ON:** {hightlight}[**Activates the fuel pump**]
 - **AUTO:** {hightlight}[**Automatically operates the fuel pump according to the system's logic**]
 - **OFF** {hightlight}[**Deactivates the fuel pump**]
@@ -32,9 +31,9 @@ with col1:
 with col2:
     with st.expander("Crossfeed Valve Knob (XFEED)"):
         st.write(f"""
-- **LO1:** {hightlight}[**Open the crossfeed valve and turns on electrical pump 2 (inside right tank)(DC BUS 2).  Both engines are fed by the right tank**]
+- **LO1:** {hightlight}[**Open the crossfeed valve and turns on electrical pump 2 (DC BUS 2)(inside right tank).  Both engines are fed by the right tank**]
 - **OFF:** {hightlight}[**Close the crossfeed valve**]
-- **LO2** {hightlight}[**Open the crossfeed valve and turns on electrical pump 1 (inside left tank)(EMER BUS).  Both engines are fed by the right tank**]
+- **LO2** {hightlight}[**Open the crossfeed valve and turns on electrical pump 1 (EMER BUS)(inside left tank).  Both engines are fed by the right tank**]
 """)
 
 st.write("## Question Bank")

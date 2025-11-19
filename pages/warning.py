@@ -12,7 +12,7 @@ st.write("## Question Bank")
 
 with st.expander("Describe the low speed awareness tape?"):
      st.write(f"""
-- {hightlight}[**Yellow band**] top of red + 3 knots
+- {hightlight}[**Yellow band**] top of red to 1.03 times higher (Stall warning margin)
 - {hightlight}[**Red Band**] Bottom of airspeed to airspeed at which the Stall Warning aural message will be activated
 """)
      

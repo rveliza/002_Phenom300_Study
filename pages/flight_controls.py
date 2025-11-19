@@ -215,6 +215,13 @@ with st.expander("Config Check Test"):
      
 with st.expander("Describe flap system operation"):
      st.write(f"""
-- {hightlight}[**FCE operates one electric motor that drives felxible shafts which exted the flaps**] 
+- {hightlight}[**FCE operates one electric motor that drives felxible shafts which extend the flaps**] 
+""")
+     
+with st.expander("Describe the flap actuators"):
+     st.write(f"""
+- {hightlight}[**Total of 6 Irreversible Flap Linear Actuators (IFLA's)**] 
+     - {hightlight}[**Externar flaps**]: 2
+     - {hightlight}[**Internal flaps**]: 1
 """)
 
