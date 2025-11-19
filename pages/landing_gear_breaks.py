@@ -6,6 +6,23 @@ cols_settings = [20, 80]
 
 
 st.title("Landing Gear and Brakes")
+st.write("## Lights and Switches")
+
+######################## Gear Panel
+st.write("#### Landing Gear Panel")
+
+col1, col2 = st.columns(cols_settings)
+
+with col1:
+    st.image("images/landing_gear_lever.png", use_container_width=False)
+
+with col2:
+    with st.expander("Landing Gear Panel"):
+        st.write(f"""
+- DN LCK REL: {hightlight}[Mechanically releases the landing gear lever lock]            
+- WARNING BUTTON: {hightlight}[Inhibits landing gear warining when the landing flap is not selected and the difference between aiplane altitude and LFE is less than 700 ft during descent]  
+     - Warning will not be silenced if flaps selected to 3 or Full and the landing gear is not down and locked.              
+""")
 
 
 st.write("## Question Bank")
@@ -37,7 +54,7 @@ with st.expander("Explain the Emergency Extension process"):
 """)
      
 
-with st.expander("When flap lever is set to either 0, 1, or 2 position, when would the landing gear aural wanring sound?"):
+with st.expander("When flap lever is set to either 0, 1, or 2 position, when would the landing gear aural warning sound?"):
      st.write(f"""
 - {hightlight}[**Difference between pressure altitude and LFE is less that 700 ft**] and,
 - {hightlight}[**Airspeed is below 160 kts**] and,
