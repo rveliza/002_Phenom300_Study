@@ -90,10 +90,11 @@ with st.expander("Wing and Horizontal Stabilizer icing protection is provided by
 with st.expander("Which subsystems do the ice and rain protection include?"):
      st.write(f"""
 - {hightlight}[**Wings**] 
-- {hightlight}[**Horizonta Stabilizer**] 
+- {hightlight}[**Horizontal Stabilizer**] 
 - {hightlight}[**Engine air intakes**] 
 - {hightlight}[**Pitot and Static**] 
 - {hightlight}[**Windshields**] 
+     - Heating and Rain Repellent
 """)
      
 

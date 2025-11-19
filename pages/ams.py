@@ -39,11 +39,12 @@ with col2:
     with st.expander("Air conditioning Temperature Mode Switch"):
         st.write(f"""
 - MAN: Manual operation of temperature contol system
+    - {hightlight}[Independent zonal temperature control is not operative]
 - AUTO: Automatic operation of temperature control system
 - OFF: 
     - {hightlight}[Turns off the VCS (compressor/condenser and evaporators)]
     - Automatic mode is kept operative in this position
-    - {hightlight}[Independent zonal temperature control is not operative]
+    
 """)
         
 col1, col2 = st.columns(cols_settings)

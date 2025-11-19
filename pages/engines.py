@@ -35,6 +35,16 @@ with col2:
 - **OFF:** {hightlight}[**Deactivates the ignition system.**]
     - When engine is running, at idle or above, the FADEC disregards OFF position
 """)
+        
+col1, col2 = st.columns(cols_settings)
+with col1:
+     st.image("images/min_n1_anti_ice_bug.png", use_container_width=True)
+with col2:
+    with st.expander("Min N1 Anti-Ice Bug"):
+        st.write(f"""
+- Min N1 to be commanded for full anti-ice capability
+- Comes into view when wing and horizontal stabilizer anti-ice systems are ON AND langing gear is extended,
+- or single engine or single bleed operation.""")
 
 
         
@@ -167,5 +177,39 @@ with st.expander("List the start malfunction protections provided by the FADEC?"
 - {hightlight}[**Hot Start**] 
 """)
      
+with st.expander("How many fuel nozzles are there?"):
+     st.write(f"""
+- {hightlight}[**11**]
+""")
+     
+
+     
+with st.expander("What are the five distinct starting modes:"):
+     st.write(f"""
+- {hightlight}[**Ground Starting**]
+- {hightlight}[**Air Starting(Windmillig/Assisted)**]
+- {hightlight}[**Autorelight**]
+- {hightlight}[**Wet Motoring**]
+- {hightlight}[**Dry Motoring - Ign Off - 30 secs limit**]
+""")
+     
+with st.expander("Ignition System FADEC Channels:"):
+     st.write(f"""
+- Channel A: {hightlight}[**EMER BUS, Has the ability to convert of channel B DC BUS to EMER BUS**]
+- Left FADEC B: {hightlight}[**DC BUS 1**]
+- Right FADEC B: {hightlight}[**DC BUS 2**]
+""")
+     
+with st.expander("List FADEC auto abort cases on ground:"):
+     st.write(f"""
+- {hightlight}[**No lightup**]: ITT has not raisen significantly after 10 seconds of FF
+- {hightlight}[**Hot Start**]: ITT exceeds steady state limit
+- {hightlight}[**Hung Start**]: Time to reach idle exceeds 60 seconds
+""")
 
 
+with st.expander("When is the TT0 heater activated?"):
+     st.write(f"""
+- TT0 reading is below 15$\\degree$C, with the engine running or ground or the airplane is in the air.
+- Eng1, Eng2 2 Ice protection swithes are ON.
+""")

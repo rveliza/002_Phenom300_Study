@@ -99,6 +99,13 @@ with st.expander("QRH"):
 - Symplified Takeoff Analysis and Landing Distance
 """)
     
+with st.expander("When does the LED on the toilet turn red?"):
+     st.write(f"""
+- {hightlight}[**Lavatory has reached 90% of total capacity**] 
+""")
+     
+     
+    
 
     
 
