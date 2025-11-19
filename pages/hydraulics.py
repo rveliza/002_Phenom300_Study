@@ -20,6 +20,8 @@ with col2:
         st.write(f"""
 - **OPEN:** {hightlight}[**Command the Fire Shutoff Valve (FSOV) to open**]
 - **CLOSED:** {hightlight}[**Command the Fire Shutoff Valve (FSOV) to close**]
+     - Will automatically close if in case of hydraulic overtemperature.
+     - May be also closed via the engine fire extinguisher shutoff button. 
 """)
 
         
