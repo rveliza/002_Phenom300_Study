@@ -20,7 +20,7 @@ with col2:
     with st.expander("Landing Gear Panel"):
         st.write(f"""
 - DN LCK REL: {hightlight}[Mechanically releases the landing gear lever lock]            
-- WARNING BUTTON: {hightlight}[Inhibits landing gear warining when the landing flap is not selected and the difference between aiplane altitude and LFE is less than 700 ft during descent]  
+- WARNING BUTTON: {hightlight}[Inhibits landing gear warning when the landing flap is not selected and the difference between airplane altitude and LFE is less than 700 ft during descent]  
      - Warning will not be silenced if flaps selected to 3 or Full and the landing gear is not down and locked.              
 """)
 
@@ -109,11 +109,29 @@ with st.expander("What type of brake system does the P300 have?"):
 
 with st.expander("Functions of the brake system?"):
      st.write(f"""
-- {hightlight}[**Locked Wheel Protection**] Prevents the main landing gear tire from bursting
-- {hightlight}[**Anti Skid Protection**] Prevents tire skidding and maximizes brake efficiency
-- {hightlight}[**Touchdown Protection**] Prevents brake application prior to airplane on ground
+- {hightlight}[**Locked Wheel Protection**] Prevents the main landing gear tire from bursting due to wheel locking.
+     - Compares LH, RH brakes and a reference velocity.
+     - If a wheel speed is 30% less than the reference speed, the BCU reduces brake pressure of the slower wheel to zero, allowing equalization.
+     - Pressure dump is cancelled when the wheel attains 70% of reference speed.
+     - Dropout speed for this protection is 30 kts.
+- {hightlight}[**Anti Skid Protection**] Prevents tire skidding and maximizes brake efficiency according to ruway surface.
+     - Activated above 30 kts.
+     - Deactivated below 10 kts.
+- {hightlight}[**Touchdown Protection**] Prevents brake application prior to airplane on ground or spin up conditions.
+     - System dumps pressure when airbore. 
+     - Before WOW indicate aircraft on ground, touchdown protection is cancelled when wheel speed is above 60 kts.
+     - When WOW indicates aircraft on ground, touchdown protection is reduced from 60 kts to 30 kts in 3 seconds.
+     - Also touchdown protection is cancelled 3 seconds after WOW indicates aircraft on ground.
 - {hightlight}[**Gear Retract Braking**] Provides break pressure during gear retraction
+     - BCU applies pressure within a 3 second delay
+     - After 3 second delay if whell speed is present, the pressure demands are ramped up.
+     - If both wheels speeds are detected at zero or 10 seconds have passed, the pressure demands are reset to zero.
 - {hightlight}[**Initiated Built In Test**] 
+     - Landing gear lever transitions from  UP to DOWN,
+     - At least one gear indicates down and locked,
+     - WOW indicates airborne,
+     - Both wheels are stationary
+     - The IBIT excercises the pressure loop throughout their full range in 5 seconds to ensure proper operation of the SOV, BCV and PT.
 """)
      
 
