@@ -46,7 +46,7 @@ with st.expander("Altitude Check Procedure"):
 st.write("#### Holding Speeds")
 
 
-with st.expander("Where is the data required to operate in RVSM?"):
+with st.expander("What are the maximum holding speeds?"):
      st.write(f"""
 - Up to 6,000 ft: {hightlight}[**200 KIAS**] 
 - From 6,001 to 14,000 ft: {hightlight}[**230 KIAS**] 
