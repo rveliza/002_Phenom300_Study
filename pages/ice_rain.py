@@ -14,7 +14,7 @@ st.write("#### Ice and Rain Protection Control Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_windshield.png", use_container_width=True)
+    st.image("images/switches_windshield.png", width='stretch')
 with col2:
     with st.expander("Windshield Heating Switch"):
         st.write(f"""
@@ -24,34 +24,40 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_ads.png", use_container_width=True)
+    st.image("images/knobs_ads.png", width='stretch')
 with col2:
     with st.expander("Air Data System/Angle of Attack Heating Knob"):
         st.write(f"""
 - **OFF:** {hightlight}[**Deactivates the ADS heating system**]
 - **AUTO:** {hightlight}[**Allows automatic operation of the ADS heating system**]
+     - Automatic when at least one engine is running or,
+     - The aircraft is not on the wheels
 - **ON:** {hightlight}[**Activates the ADS heating system**]
 """)
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_wingstab.png", use_container_width=True)
+    st.image("images/switches_wingstab.png", width='stretch')
 with col2:
     with st.expander("Wing/Stabilizer Ice Protection Switch"):
         st.write(f"""
 - **ON:** {hightlight}[**Activates the wing and the horizontal stabilizer anti-ice systems**]
+     - Stall warning activation angles are anticipated (Higher stall warning speeds)
+     - SWPS ICE SPEED CAS message is displayed
 - **OFF:** {hightlight}[**Deactivates the wing and the horizontal stabilizer anti-ice systems**]
 - **ICE SPEED RESET:** {hightlight}[**Resets the SWPS to non-icing schedule and removes the SWPS ICE SPEED message**]
 """)
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_engine_ice.png", use_container_width=True)
+    st.image("images/switches_engine_ice.png", width='stretch')
 with col2:
     with st.expander("Engine Ice Protection Switch"):
         st.write(f"""
 - **ON:** {hightlight}[**Activates the associated engine anti-ice system**]
+     - Engine TTO probe is also heated electrically.
 - **OFF:** {hightlight}[**Deactivates the associated engine anti-ice system**]
+     - Energizes the EAIV to the CLOSE position. If electrical power is lost, the EAIV defaults to the OPEN position.
 """)
 
         

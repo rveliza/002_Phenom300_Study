@@ -124,7 +124,7 @@ with st.expander("Functions of the brake system?"):
      - Also touchdown protection is cancelled 3 seconds after WOW indicates aircraft on ground.
 - {hightlight}[**Gear Retract Braking**] Provides break pressure during gear retraction
      - BCU applies pressure within a 3 second delay
-     - After 3 second delay if whell speed is present, the pressure demands are ramped up.
+     - After 3 second delay if wheel speed is present, the pressure demands are ramped up.
      - If both wheels speeds are detected at zero or 10 seconds have passed, the pressure demands are reset to zero.
 - {hightlight}[**Initiated Built In Test**] 
      - Landing gear lever transitions from  UP to DOWN,
