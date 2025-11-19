@@ -14,7 +14,7 @@ st.write("#### Fuel Control Panel")
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/switches_fuel_pump.png", use_container_width=True)
+    st.image("images/switches_fuel_pump.png", width='stretch')
 with col2:
     with st.expander("Fuel Pump Selector Switch"):
         st.write(f"""
@@ -28,13 +28,13 @@ with col2:
 
 col1, col2 = st.columns(cols_settings)
 with col1:
-    st.image("images/knobs_xfeed.png", use_container_width=True)
+    st.image("images/knobs_xfeed.png", width='stretch')
 with col2:
     with st.expander("Crossfeed Valve Knob (XFEED)"):
         st.write(f"""
-- **LO1:** {hightlight}[**Open the crossfeed valve and turns on electrical pump 2 (inside right tank).  Both engines are fed by the right tank**]
+- **LO1:** {hightlight}[**Open the crossfeed valve and turns on electrical pump 2 (inside right tank)(DC BUS 2).  Both engines are fed by the right tank**]
 - **OFF:** {hightlight}[**Close the crossfeed valve**]
-- **LO2** {hightlight}[**Open the crossfeed valve and turns on electrical pump 1 (inside left tank).  Both engines are fed by the right tank**]
+- **LO2** {hightlight}[**Open the crossfeed valve and turns on electrical pump 1 (inside left tank)(EMER BUS).  Both engines are fed by the right tank**]
 """)
 
 st.write("## Question Bank")

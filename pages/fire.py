@@ -19,7 +19,7 @@ with col2:
     with st.expander("Shutoff 1 and Shutoff 2 Buttons (Guarded)"):
         st.write(f"""
 - **PUSHED IN:** 
-    - {hightlight}[**Closes fuel valve**]
+    - {hightlight}[**Closes fuel shuttoff valve (Only way of closing)**]
     - {hightlight}[**Closes the PRSOV valve**]
     - {hightlight}[**Closes the Hydraulic valve**]
     - {hightlight}[**Enables the fire extinguisher**]
